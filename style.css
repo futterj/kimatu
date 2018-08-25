@@ -1,0 +1,76 @@
+@charset "utf-8";
+.topVisual{
+    width: 100%;
+    height: 100vh;
+    background-image: url(197be780d14923b81d0a2e84d9ce11a3_m.jpg);
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    top:0;
+    z-index: 10;
+}
+.topVisual .txtBox{
+    color: white;
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    font-size: 50px;
+    top: calc(50% - 25px);
+    font-family: 'Courier New', Courier, monospace
+}
+.topVisual .txtBox p{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.topVisual .txtBox h1:hover{
+    color: blue;
+    transition: all .4s;
+    cursor: pointer
+}
+/**/
+.hobby{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    position: relative;
+    z-index: 11;
+
+
+}
+.hobby-section{
+    width: 980px;
+    height: 1200px;
+    margin: 100vh auto 300px;
+    background-color: white;
+    padding-top:100px; 
+}
+.hobby-section h2{
+    font-size: 30px;
+    border-left: 10px solid rgb(46, 93, 196);
+    padding-left: 10px;
+    margin: 60px 0 40px;
+
+}
+.hobby-section p{
+    margin-left: 30px;
+}
+/**/
+.topVisual nav{
+    display: flex;
+    position: absolute;
+    bottom: 30px;
+    left: calc(50% - 91px);
+}
+.topVisual nav a{
+    color: #fff;
+    padding: 0 10px;
+    font-size: 20px;
+
+}
+.topVisual nav a:hover{
+    opacity: 0.5;
+    transition: all .4s;
+}

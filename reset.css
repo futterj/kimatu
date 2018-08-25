@@ -1,0 +1,33 @@
+@charset "utf-8";
+html, body, div, header, main, aside, footer, section, article, nav, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td{ margin:0;padding:0;word-wrap:break-word; box-sizing:border-box;border: 0;outline: 0;font-size: 100%;font-weight:normal;vertical-align: baseline;background: transparent;}
+.transition{-webkit-transition: 0.4s;-moz-transition: 0.4s;-o-transition: 0.4s;-ms-transition: 0.4s;transition: 0.4s;}
+body {line-height: 1;-webkit-text-size-adjust: 100%;}
+select::-ms-expand {display: none;}
+a{ text-decoration:none;}
+input[type="button"],input[type="submit"],button { box-shadow:none; border:none;-webkit-appearance: none;}
+table {border-collapse:collapse;border-spacing:0;}
+fieldset,img { border:0;}
+address,caption,cite,code,dfn,em,strong,th,var {font-style:normal;font-weight:normal;}
+ol,ul {list-style:none;}
+caption,th {text-align:left;}
+q:before,q:after {content:'';}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after,q:before, q:after {content: '';content: none;}
+abbr,acronym { border:0;}
+ul.wpp-list li{ clear:none;}
+pre{/* Mozilla */white-space: -moz-pre-wrap;/* Opera 4-6 */white-space: -pre-wrap;/* Opera 7 */white-space: -o-pre-wrap;/* CSS3 */white-space: pre-wrap;/* IE 5.5+ */word-wrap: break-word;}
+.clearfix:after {content: ".";display: block; clear: both;height: 0;visibility: hidden;}
+.clearfix {min-height: 1px;}
+* html .clearfix {height: 1px;
+/*\*//*/
+height: auto;
+overflow: hidden;
+/**/
+}
